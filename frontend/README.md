@@ -25,7 +25,7 @@ The frontend sends:
 - `POST /api/messages/analyze` with `{message_text, sender?, channel}`
 - `POST /api/urls/analyze` with `{url, context?}`
 
-The corresponding analysis responses follow `docs/API_SPEC.md` and include risk classification, score, summary, indicators, and recommendations. At the time this frontend was developed, the repository backend implemented **only the health endpoint**. The analysis UI deliberately displays a clear error for unavailable endpoints; it does not fabricate risk assessments.
+The corresponding analysis responses follow `docs/API_SPEC.md` and include risk classification, score, summary, indicators, and recommendations. The backend provides full implementations for `/api/health`, `/api/messages/analyze`, and `/api/urls/analyze`.
 
 Configure deployed API origin in `.env` (do **not** commit secrets):
 
