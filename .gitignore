@@ -21,6 +21,8 @@ __pycache__/
 build/
 develop-eggs/
 dist/
+!frontend/dist/
+!frontend/dist/**
 downloads/
 eggs/
 .eggs/
@@ -28,6 +30,8 @@ lib/
 lib64/
 parts/
 sdist/
+!frontend/dist/
+!frontend/dist/**
 var/
 wheels/
 share/python-wheels/
@@ -54,10 +58,14 @@ jspm_packages/
 
 
 dist/
+!frontend/dist/
+!frontend/dist/**
 out/
 .next/
 .nuxt/
 .vuepress/dist/
+!frontend/dist/
+!frontend/dist/**
 .serverless/
 .fusebox/
 .dynamodb/

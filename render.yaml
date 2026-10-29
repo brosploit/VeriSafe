@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: verisafe
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 8000
+

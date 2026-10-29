@@ -1,0 +1,12 @@
+{
+  "name": "verisafe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VeriSafe - Detect. Understand. Verify.",
+  "scripts": {
+    "build": "npm --prefix frontend run build",
+    "typecheck": "npm --prefix frontend run typecheck",
+    "test": "npm --prefix frontend run typecheck"
+  }
+}
+
