@@ -2,7 +2,7 @@
 
 # 🛡️ VeriSafe
 
-### Detect. Understand. Verify.
+### DETECT . DECODE . DEFEND .
 
 **An explainable fraud and phishing analysis platform powered by intelligent detection.**
 
