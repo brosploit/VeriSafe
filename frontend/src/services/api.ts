@@ -1,6 +1,6 @@
 import type { AnalysisResult, ApiErrorShape, Channel } from '../types/api';
 
-const BASE = (import.meta.env.VITE_API_BASE_URL ?? '').replace(/\/$/, '');
+const BASE = ((import.meta as unknown as { env?: Record<string, string | undefined> }).env?.VITE_API_BASE_URL ?? '').replace(/\/$/, '');
 
 export class ApiError extends Error {
   constructor(message: string, public status?: number) {
